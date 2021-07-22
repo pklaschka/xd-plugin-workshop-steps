@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "baseUrl": "./",
+    "checkJs": false,
+    "strict": false,
+    "lib": [
+      "es2015",
+      "dom"
+    ]
+  },
+}
