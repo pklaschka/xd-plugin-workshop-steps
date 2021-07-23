@@ -86,7 +86,7 @@ function myCommandFunction(selection) {
     selection.items[0].addChild(rect); // add the rectangle as a direct child of the arbtoard
 
     // and place it in the right coordinates
-    rect.placeInParentCoordinates({ x: 0, y: 0 }, { x: x, y: y });
+    rect.placeInParentCoordinates({ x: 0, y: 0 }, { x: 100, y: 100 });
 }
 
 module.exports = {
